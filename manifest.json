@@ -14,8 +14,10 @@
 	],
   	"content_scripts": [
         {
-            "matches": ["*://*.tmall.com/*id=544751208475*skuId=3447571490096*"],
+
+            "matches": ["*://*.tmall.com/*id=544751208475*"],
             "js": ["jquery-1.11.3.min.js", "tmall.js"]
         }
+
     ]
 }
